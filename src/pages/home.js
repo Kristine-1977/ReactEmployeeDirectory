@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import API from "../utils/API";
 
-class Discover extends Component {
+class Home extends Component {
   state = {
     employee: [],
     match: false,
@@ -45,4 +45,4 @@ class Discover extends Component {
   }
 }
 
-export default Discover;
+export default Home;
